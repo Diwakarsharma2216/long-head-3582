@@ -40,7 +40,7 @@ export default function Footer() {
           templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 1fr 1fr' }}
           spacing={8}>
           <Stack spacing={6} >
-            <Box boxSize={{base:"",md:320}} >
+            <Box boxSize={{base:"",md:320}} bg="grey.500">
               <Text textAlign={"center"}>
               <Logo prop={"https://cdn.dribbble.com/users/1555712/screenshots/5359537/untitled-1.gif"}  />
               </Text>
@@ -52,28 +52,33 @@ export default function Footer() {
             </Text> */}
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Product</ListHeader>
-            <Link href={'#'}>Overview</Link>
-            <Link href={'#'}>Features</Link>
-            <Link href={'#'}>Tutorials</Link>
-            <Link href={'#'}>Pricing</Link>
-            <Link href={'#'}>Releases</Link>
+            <ListHeader>For designers</ListHeader>
+            <Link href={'#'}>Go Pro!</Link>
+            <Link href={'#'}>Explore design work</Link>
+            <Link href={'#'}>Design blog</Link>
+            <Link href={'#'}>Overtime podcast</Link>
+            <Link href={'#'}>playoffs</Link>
+            <Link href={'#'}>Code of conduct</Link>
+          </Stack>
+          <Stack align={'flex-start'}>
+            <ListHeader>Hire designers</ListHeader>
+            <Link href={'#'}>Post a job opening</Link>
+            <Link href={'#'}>Post a freelance project</Link>
+            <Link href={'#'}>Search for designers</Link>
+            <Link href={'#'}><Text fontWeight={"extrabold"}>Brands</Text></Link>
+            <Link href={'#'}>Advertise with us</Link>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
             <Link href={'#'}>About</Link>
-            <Link href={'#'}>Press</Link>
             <Link href={'#'}>Careers</Link>
-            <Link href={'#'}>Contact</Link>
-            <Link href={'#'}>Partners</Link>
-          </Stack>
-          <Stack align={'flex-start'}>
-            <ListHeader>Support</ListHeader>
-            <Link href={'#'}>Help Center</Link>
-            <Link href={'#'}>Terms of Service</Link>
-            <Link href={'#'}>Legal</Link>
-            <Link href={'#'}>Privacy Policy</Link>
-            <Link href={'#'}>Status</Link>
+            <Link href={'#'}>Support</Link>
+            <Link href={'#'}>Media kit</Link>
+            <Link href={'#'}>Testimonials</Link>
+            <Link href={'#'}>API</Link>
+            <Link href={'#'}>Terms of service</Link>
+            <Link href={'#'}>Privacy policy</Link>
+            <Link href={'#'}>Cookie policy</Link>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Follow Us</ListHeader>
@@ -85,13 +90,13 @@ export default function Footer() {
           </Stack>
         </SimpleGrid>
         <hr />
-        <Box>
+        <Box mt="30%">
           <SimpleGrid  columns={{base:"1",md:"2"}}>
-            <Box><Text textAlign={"start"}>© 2023 Dribbble. All rights reserved.</Text></Box>
+            <Box ml={"8%"}><Text textAlign={{base:"center",md:"start"}}>© 2023 Dribbble. All rights reserved.</Text></Box>
             <Box>
-              <HStack ml={120}>
-              <Box ><Text ><span>21,353,479</span> shots dribbbled</Text></Box>
-                <Box boxSize={"30px"}><Logo prop="https://e7.pngegg.com/pngimages/365/131/png-clipart-dribbble-logo-graphic-design-design-purple-logo.png"   /> </Box>
+              <HStack w={{base:"40%",md:"auto"}}  ml={{base:"30%",md:"40%"}} >
+              <Box  ><Text ><span style={{color:"black",fontWeight:"bold"}}>21,353,479</span> shots dribbbled</Text></Box>
+                <Box  boxSize={"30px"} ><Logo prop="https://e7.pngegg.com/pngimages/365/131/png-clipart-dribbble-logo-graphic-design-design-purple-logo.png"   /> </Box>
               </HStack>
             </Box>
           </SimpleGrid>
