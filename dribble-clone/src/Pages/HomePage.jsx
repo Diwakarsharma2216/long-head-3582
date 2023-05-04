@@ -1,8 +1,8 @@
 import { Box, Container, HStack, Heading, Image, VStack,Text, Button,Flex } from '@chakra-ui/react'
 import React from 'react'
-import Navbar from '../Componenet/Navbar'
-import Footer from '../Componenet/Footer'
-import dribbble from "../asset/dribbble.webp"
+import Navbar from "../Components/Navbar"
+import Footer from "../Components/Footer"
+import dribbble from "../assets/dribbble.webp"
 const HomePage = () => {
   return (
     <div>

@@ -22,7 +22,7 @@ import {
     ChevronDownIcon,
     ChevronRightIcon,
   } from '@chakra-ui/icons';
-  import logo from "../asset/logo.svg"
+  import logo from "../assets/logo.svg"
   import { BsSearch } from "react-icons/bs";
   export default function Navbar() {
     const { isOpen, onToggle } = useDisclosure();

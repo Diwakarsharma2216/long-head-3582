@@ -1,5 +1,5 @@
-import { Box } from "@chakra-ui/react";
-import MainRoutes from "./Page/MainRoutes";
+
+import MainRoutes from "./Pages/MainRoutes";
 
 function App() {
   return (
