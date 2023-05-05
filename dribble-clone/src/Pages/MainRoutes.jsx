@@ -9,7 +9,7 @@ const MainRoutes = () => {
     <div>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/singleproduct/:id" element={<SingleProduct />}></Route>
+      
       </Routes>
     </div>
   );
