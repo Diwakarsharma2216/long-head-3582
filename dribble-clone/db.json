@@ -1,19 +1,18 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "email": "supriyasahoo1083@gmail.com",
+      "firstName": "fn",
+      "lastName": "fn",
+      "password": "qwerty",
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "email": "eve.holt@reqres.in",
+      "firstName": "fn",
+      "lastName": "lm",
+      "password": "qwerty",
+      "id": 2
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
