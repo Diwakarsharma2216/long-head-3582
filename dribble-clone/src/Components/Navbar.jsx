@@ -11,6 +11,7 @@ import {
   useDisclosure,
   IconButton,
   Hide,
+  Container,
 } from "@chakra-ui/react";
 import {
   MoonIcon,
@@ -30,6 +31,7 @@ export default function Navbar() {
 
   return (
     <div id="navFix">
+      
       <Box
         bg={useColorModeValue("#3cdc94", "gray.100")}
         px={9}
@@ -171,6 +173,7 @@ export default function Navbar() {
           ) : null}
         </Flex>
       </Box>
+     
     </div>
   );
 }

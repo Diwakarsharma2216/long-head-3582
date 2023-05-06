@@ -8,7 +8,7 @@ const MidSection = () => {
   const data=[{},{},{},{}]
   return (
     <div>
-     <Container maxW={"container.xxl"}  minH={"3xl"}  bg={"#3cdc94"}  mt="0" >
+     <Container maxW={"container.2xl"}  minH={"3xl"}  bg={"#3cdc94"}  mt="0" >
       <Box>
         <SimpleGrid columns={{base:1,md:2}}>
             <Box mt={"10"}>

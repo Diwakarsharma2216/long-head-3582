@@ -7,7 +7,7 @@ import { HiCircleStack } from "react-icons/hi2";
 
 export default function CreditOffers() {
     return (
-        <Container maxW={"container.xl"} mt={"-16"}>
+        <Container maxW={"container.2xl"} mt={"-16"}>
         <Box fontFamily={'Product Sans'} letterSpacing={1} bg={'black'} color={'white'} p={10} borderRadius={30}>
             <Flex justifyContent={'space-between'} alignItems={'center'} >
                 <Flex w={'40%'} justifyContent={'space-between'} alignItems={'center'}>
