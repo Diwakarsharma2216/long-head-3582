@@ -44,8 +44,10 @@ const CreditScorePage = () => {
                 <h3 style={{ fontSize: "20px", textAlign: "left", color: "white", marginLeft: "20px" }}>
                     the credit score checker allows you to calculate your credit score report and cibil score. it is a three-digit numeric expression that represents your creditworthiness.
                     <br />
+
                     if you are planning to request a credit card, then it is recommended to have your cibil score be at least 750. reviewing the history of credit of the applicant is an essential part of the screening process.
                 </h3>
+                
 
                 <br /><br />
 
@@ -81,3 +83,4 @@ const CreditScorePage = () => {
 }
 
 export default CreditScorePage;
+ 
