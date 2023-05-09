@@ -8,7 +8,7 @@ const MidSection = () => {
   const data=[{},{},{},{}]
   return (
     <div>
-     <Container maxW={"container.xl"}  minH={"3xl"}  bg={"green.300"}  mt="50" >
+     <Container maxW={"container.2xl"}  minH={"3xl"}  bg={"#3cdc94"}  mt="0" >
       <Box>
         <SimpleGrid columns={{base:1,md:2}}>
             <Box mt={"10"}>
@@ -84,8 +84,8 @@ const MidSection = () => {
                 <Text textAlign={"left"} fontSize={"xl"} fontStyle={"bold"}> Credit <br></br> 
                 Card Use</Text>
                 <HStack  spacing={"40"} mt={"5"} ml="5">
-                 <Text   fontSize={"3xl"}>9</Text>
-                 <Box fontSize={"3xl"}> <BsThreeDots /> </Box>
+                 <Text   fontSize={"3xl"}>9<span>%</span></Text>
+                 <Box fontSize={"3xl"}> <BsThreeDots />  </Box>
                 
                 </HStack>
                 </VStack>
