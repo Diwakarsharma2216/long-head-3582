@@ -5,7 +5,7 @@ import craditmeter from "../assets/meter.png"
 import { BsFillCreditCard2BackFill, BsThreeDots } from "react-icons/bs";
 import { BsThreeDotsVertical } from "react-icons/bs";
 const MidSection = () => {
-  const data=[{},{},{},{}]
+  const data=[{text:"credit card use",value:9},{text:"Payment History",value:100},{text:"credit Age",value:4},{text:"Total Accounts",value:9}]
   return (
     <div>
      <Container maxW={"container.2xl"}  minH={"3xl"}  bg={"#3cdc94"}  mt="0" >
@@ -58,10 +58,10 @@ const MidSection = () => {
                   <Box >
                     <HStack spacing={"8"} >
                     
-                      $<Text fontSize={"2xl"}>net Worth</Text>
+                      $<Text fontSize={"2xl"}>Total Dept</Text>
                       <Box fontsize="3xl"> <BsBoxArrowUpRight /></Box>
                     </HStack>
-                  <Text fontSize={"4xl"} ><span style={{fontSize:"20px",color:"grey"}} >$</span>137,036</Text>
+                  <Text fontSize={"4xl"} ><span style={{fontSize:"20px",color:"grey"}} >$</span>64,100</Text>
                   </Box>
 
                   </VStack>
@@ -81,10 +81,9 @@ const MidSection = () => {
                <Box borderRadius={"3xl"} mt={"5"} mr="10" border={"1px solid grey"} bg={"white.300"} fontSize={"3xl"}><BsThreeDotsVertical /></Box>
                 
                 </HStack>
-                <Text textAlign={"left"} fontSize={"xl"} fontStyle={"bold"}> Credit <br></br> 
-                Card Use</Text>
+                <Text textAlign={"left"} fontSize={"xl"} fontStyle={"bold"}>{el.text}</Text>
                 <HStack  spacing={"40"} mt={"5"} ml="5">
-                 <Text   fontSize={"3xl"}>9<span>%</span></Text>
+                 <Text   fontSize={"3xl"}>{el.value}<span>%</span></Text>
                  <Box fontSize={"3xl"}> <BsThreeDots />  </Box>
                 
                 </HStack>

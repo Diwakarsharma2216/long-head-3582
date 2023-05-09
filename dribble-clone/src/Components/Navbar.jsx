@@ -64,7 +64,7 @@ export default function Navbar() {
                 </Button>
 
                 <Button className="btnRes" colorScheme='whiteAlpha' _hover={{ bg: "black.500", color: " white" }} borderRadius="25px">
-                  <a href="#Credits">
+                  <a href="/credit">
                     <b>Credits</b>
                   </a>
                 </Button>
